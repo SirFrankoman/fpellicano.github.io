@@ -2,23 +2,57 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Francis Pellicano</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
+  <header class="site-header">
     <h1>Francis Pellicano</h1>
-    <p>Educator • Engineer • Maker</p>
+    <p>Educator • Engineer • Tinkerer</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </header>
+
   <main>
-    <section>
+    <section id="about" class="section light-bg">
       <h2>About Me</h2>
-      <p>Welcome to my portfolio website! Stay tuned for projects and resources.</p>
+      <p>I enjoy building embedded systems, mentoring students, and crafting tools that make learning hands-on and accessible. I teach engineering and build practical devices that solve real-world problems.</p>
+    </section>
+
+    <section id="projects" class="section white-bg">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>PelliPlay</strong> — A custom battery powered hand-held STM32 game device</li>
+        <li><strong>PelliTemp</strong> — A high-accuracy 4-wire RTD temperature sensor</li>
+      </ul>
+    </section>
+
+    <section id="teaching" class="section light-bg">
+      <h2>Teaching Resources</h2>
+      <p>Materials for students and educators in embedded systems and digital logic.</p>
+      <ul>
+        <li><a href="#">Digital Logic Slides [PDF]</a></li>
+        <li><a href="#">Embedded Systems Lab Manual</a></li>
+      </ul>
+    </section>
+
+    <section id="contact" class="section white-bg">
+      <h2>Contact</h2>
+      <p>Email me at <a href="mailto:contact-me@fpellicano.com">contact-me@fpellicano.com</a></p>
+      <p>
+        <a href="https://github.com/fpellicano">GitHub</a> |
+        <a href="https://linkedin.com/in/fpellicano">LinkedIn</a>
+      </p>
     </section>
   </main>
-  <footer>
-    <p>Contact: <a href="mailto:contact-me@fpellicano.com">contact-me@fpellicano.com</a></p>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 Francis Pellicano</p>
   </footer>
 </body>
 </html>
